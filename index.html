@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cotrol Base</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="item">
+      <button class="left">Left</button>
+    </div>
+    <div class="item">
+      <button class="forward">Forward</button>
+    </div>
+    <div class="item">
+      <button class="stop"> Stop</button>
+    </div>
+    <div class="item">
+      <button class="back"> Back </button>
+    </div>
+    <div class="item">
+      <button class="right">Right</button>
+    </div>
+  </div>
+  <script>
+ window.watsonAssistantChatOptions = {
+     integrationID: "f1b20770-390f-4f4f-bb8e-b690409ccf91", // The ID of this integration.
+     region: "eu-de", // The region your integration is hosted in.
+     serviceInstanceID: "11747481-fa82-470c-b434-57e79767c047", // The ID of your service instance.
+     onLoad: function(instance) { instance.render(); }
+   };
+ setTimeout(function(){
+   const t=document.createElement('script');
+   t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+   document.head.appendChild(t);
+ });
+</script>
+</body>
+</html>

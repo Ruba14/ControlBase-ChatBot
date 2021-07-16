@@ -1,0 +1,121 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Arial', sans-serif;
+}
+.wrap{
+  display: flex;
+  min-height: 100vh;
+  background: url('img/rt1.png');
+}
+.item{
+  padding: 10px;
+}
+.left{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #006666;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  transform: translate(80vh,50vh);
+}
+.left:hover,
+.left.focus{
+  background: #009999;
+}
+.left.active{
+  background: #009999;
+}
+.forward{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #006666;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  transform: translate(86.5vh,35vh);
+}
+.forward:hover,
+.forwoard.focus{
+  background: #009999;
+}
+.forward.active{
+  background: #009999;
+}
+.stop{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #cc0000;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  transform: translate(70vh,50vh);
+}
+.stop:hover,
+.stop.focus{
+  background: #009999;
+}
+.stop.active{
+  background: #009999;
+}
+.back{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #006666;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  transform: translate(54.5vh,65vh);
+}
+.back:hover,
+.back.focus{
+  background: #009999;
+}
+.back.active{
+  background: #009999;
+}
+.right{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #006666;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+transform: translate(60vh,50vh);
+}
+.right:hover,
+.right.focus{
+  background: #009999;
+}
+.right.active{
+  background: #009999;
+}
